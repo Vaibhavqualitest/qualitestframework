@@ -1,6 +1,7 @@
 package com.first.test;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Setup {
@@ -12,5 +13,6 @@ public class Setup {
         driver.get("https://qualitestgroup.com/");
         driver.manage().window().maximize();
     }
+
 
 }
